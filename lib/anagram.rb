@@ -12,6 +12,6 @@ attr_accessor :aw
     words.find_all 
     
   end
-
+word
 
 end  
