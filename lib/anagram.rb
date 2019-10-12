@@ -13,6 +13,7 @@ attr_accessor :aw
       if word.split("").sort == self.aw.split("").sort
         word
       end
+    end
   end
 
 
