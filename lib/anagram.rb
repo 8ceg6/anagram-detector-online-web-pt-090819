@@ -10,8 +10,8 @@ attr_accessor :aw
   
   def match(words)
     words.find_all 
-    
+  word  
   end
-word
+
 
 end  
