@@ -9,10 +9,7 @@ attr_accessor :aw
   end 
   
   def match(words)
-    words.find_all do |word|
-      if word.split("").sort == self.aw.split("").sort
-        word
-      end
+    words.find_all 
     end
   end
 
