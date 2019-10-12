@@ -8,9 +8,9 @@ attr_accessor :aw
     @aw= aw
   end 
   
-  def match(word_array)
+  def match(words)
     
-    end
+  
   end
 
 
