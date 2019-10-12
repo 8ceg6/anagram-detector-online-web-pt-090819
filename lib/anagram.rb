@@ -8,11 +8,11 @@ attr_accessor :aw
     @aw= aw
   end 
   
-  def match(a_word)
-    a_word.split%w()
-  
-  end  
-
+  def def match(word_array)
+    word_array.select do |word|
+      word.split("").sort == @word.split("").sort
+    end
+  end
 
 
 end  
